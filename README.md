@@ -3,7 +3,7 @@ https://www.ipaddress.com/ 使用 IP Lookup 工具获得下面这两个github域
 
 更改C:\Windows\System32\drivers\etc\hosts文件，在文件中追加 
 
-151.101.185.194 github.global.ssl.fastly.net
+151.101.185.194 github.global.ssl.fastly.net  
 192.30.253.112 github.com
 
 最后执行ipconfig /flushdns命令，刷新 DNS 缓存。
