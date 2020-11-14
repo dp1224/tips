@@ -1,12 +1,102 @@
-# 1.github 下载加速:rocket:
-https://www.ipaddress.com/ 使用 IP Lookup 工具获得下面这两个github域名的ip地址，该网站可能需要梯子，输入上述域名后，分别获得github.com和github.global.ssl.fastly.net对应的ip，比如192.30.xx.xx和151.101.xx.xx。准备工作做完之后，打开的hosts文件中添加如下格式，IP修改为自己查询到的IP：
+ipconfig /flushdns命令，刷新 DNS 缓存。
 
-更改C:\Windows\System32\drivers\etc\hosts文件，在文件中追加 
-
-151.101.185.194 github.global.ssl.fastly.net  
-192.30.253.112 github.com
-
-最后执行ipconfig /flushdns命令，刷新 DNS 缓存。
-
-ssr代理
+gitbash代理
 git config --global http.proxy "localhost:1080"
+
+# 1.：smile：Java常用术语中英对照
+
+OOP(Object-Oriented Programming)：面向对象编程
+
+process-oriented model：面向过程模型
+
+structed programming：结构化编程
+
+bytecode：字节码
+
+interpreter：解释器
+
+JIT(just-in-time)：即时解释器
+
+abstraction：抽象
+
+encapsulation：封装
+
+inheritance：继承
+
+polymorphism：多态
+
+class：类
+
+instance：实例
+
+member variable：成员变量
+
+member method：成员方法
+
+subclass：子类
+
+superclass：超类
+
+compilation unit：编译单元
+
+annotation：注解
+
+comment：注释
+
+multiline comment：多行注释
+
+single-line comment：单行注释
+
+documentation comment：文档注释
+
+identifier：标识符
+
+access modifier：访问修饰符
+
+literal：字面值（常量值）
+
+archive：存档
+
+JAR（Java Archive）：Java 归档文件
+
+argument：参数
+
+parameter：参数
+
+declare：声明（变量）
+
+assign：赋值（变量）
+
+initialization：初始化
+iteration：迭代
+
+loop：循环
+
+demonstrate：演示
+
+block of code：代码块
+
+syntax：语法规则
+
+relational operator：关系运算符
+
+fragment：代码片段
+
+cast：类型转换
+
+widening conversion：（类型的）扩宽转换
+
+truncation：截尾，截断
+array：数组
+
+reference：引用
+
+conditional-and：条件与
+
+conditional-or：条件或
+
+constructor：构造函数
+
+destructor：析构函数
+
+overloade：重载
