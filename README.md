@@ -3,7 +3,7 @@ ipconfig /flushdns命令，刷新 DNS 缓存。
 gitbash代理
 git config --global http.proxy "localhost:1080"
 
-# 1.：smile：Java常用术语中英对照
+# 1.:smile:Java常用术语中英对照
 
 OOP(Object-Oriented Programming)：面向对象编程
 
